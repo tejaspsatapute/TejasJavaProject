@@ -1,0 +1,64 @@
+package Day2;
+
+public class variablesPractice 
+{
+
+		public static void main(String[] args) 
+	{
+				
+			int a=12;
+			Float itemprice=10.25f; // Use 'f' for float literal
+			int age=30;
+			String name="Tejas";
+			char grad='A';             
+				
+			System.out.println(a);
+			System.out.println(itemprice);
+			System.out.println(age);
+			System.out.println(name);
+			System.out.println(grad);
+		/*	
+			// int a; // Declaration 
+	// a=100; // Assignment
+	/*	
+     int a=100;  // Declaration+Assignment
+		// System.out.println("a");
+	     System.out.println(a);
+		  a=200;
+		  System.out.println(a);
+		     
+	// 1st Approach
+		// int a=100; 
+		// int b=200; 
+		// int c=300; 
+		
+		// 2nd Approach
+	//	int a,b,c;
+	//		a=100;
+	//		b=200;
+	//		c=300;
+			
+			// 3rd Approach	
+						int x=100, y=200, z=300;
+							
+						System.out.println("The Vaule of x is:"+x);  //+ concatenated
+						System.out.println("The Vaule of y is:"+y);
+						System.out.println("The Vaule of z is:"+z);
+						
+						System.out.println(x+" "+y+" "+z);
+					ariable is a container which can hold data
+to represent data we need variables.
+int=100
+Float itemprice=10.25
+int age=30
+String name="Tejas"
+Char grad='A'
+/*The + sign is called the concatenation operator in Java.
+
+It is used to join (concatenate) two strings or a string and other data types 
+(such as int, float, etc.). 
+In this case, "The value of a is: " is concatenated with the value of the 
+variable a, resulting in a combined string that gets printed to the console.	
+			*/
+}
+}
